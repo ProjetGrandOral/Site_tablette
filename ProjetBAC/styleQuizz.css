@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Patrick+Hand&display=swap');
+
+
+
+
+body{
+	margin:0;
+	padding:0;
+    background-image: url(background1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+	
+
+}
+
+#titrequiz{
+    text-align: center;
+    margin-left: 700px;
+    display:inline-block;
+    font-family:'Pacifico';
+    font-size: 45px;
+
+
+}
+
+
+
+nav h1{
+	
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+
+
+nav{
+	
+	font-family: 'Fredoka', sans-serif;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid;
+	
+	background-color: whitesmoke;
+	
+	
+}
+
+a:hover{
+	color: cyan;
+
+
+/*a:visited{
+	color:pink; */
+}
+
+
+.tablette{
+
+	text-align:left;
+	padding-left:0;
+	padding-right:650px;
+	
+	
+	
+}
+
+.lien{
+	padding:25px;
+	text-decoration: none;
+    
+	
+	
+}
+
+img{
+	
+	height:55px;
+	width:150;
+	
+	
+	
+}
+
+
+.styled {
+	margin-left: 550px;
+	margin-top: 120px;
+    border: 0;
+    line-height: 11;
+    width: 240px;
+    padding: 0 25px;
+	position: fixed;
+    font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	/*text-shadow: 1px 1px 1px #000;*/
+	text-decoration: underline;
+	font-weight: bold;
+    font-family: 'Pacifico', cursive;
+	font-size: 22px;
+    border-radius: 25px;
+    background-color: rgb(58, 210, 32);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+				background-image: url(british-flag-31.gif);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 70%;
+				
+				
+
+			
+ 
+}
+
+.styled:hover {
+    background-color: rgba(0, 220, 48);
+	
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.secondbouton{
+	margin-left: 1100px;
+	margin-top: 120px;
+	border: 0;
+	line-height: 11;
+    width: 240px;
+    padding: 0 25px;
+	position: fixed;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    /*text-shadow: 1px 1px 1px #000;*/
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    border-radius: 25px;
+    background-color: rgb(223, 219, 6);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                background-image: url(heartgif.gif);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 70%;   
+                
+				
+
+
+}
+
+.secondbouton:hover{
+	background-color: rgba(255, 251, 0, 0.986);
+}
+
+.secondbouton:active{
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+   
+
+.triobouton{
+	margin-left: 550px;
+	margin-top: 520px;
+	border: 0;
+	line-height: 11;
+    width: 240px;
+    padding: 0 25px;
+	position: fixed;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    /*text-shadow: 1px 1px 1px #000;*/
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    border-radius: 25px;
+    background-color: rgb(238, 57, 57);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                background-image: url(giphy.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 70%;
+
+
+
+}
+
+.triobouton:hover{
+	background-color: rgb(255, 0, 0);
+}
+
+.triobouton:active{
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.squadbouton{
+	margin-left: 1100px;
+	margin-top: 520px;
+	border: 0;
+	line-height: 11;
+    width: 240px;
+    padding: 0 25px;
+	position: fixed;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    /*text-shadow: 1px 1px 1px #000;*/
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    border-radius: 25px;
+    background-color: rgb(19, 223, 223);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+                background-image: url(france-flag-14.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 70%;
+
+}
+
+.squadbouton:hover{
+	background-color: cyan;
+}
+
+.squadbouton:active{
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);	
+
+}
+
+.squadbouton::after {
+	height: 0;
+	left: 50%;
+	top: 50%;
+	width: 0;
+  }
+.squadbouton:hover:after {
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+  }

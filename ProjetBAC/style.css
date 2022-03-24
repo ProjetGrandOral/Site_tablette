@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+body{
+	background-image: url(background1.png);
+	margin:0;
+	padding:0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2{
+	font-family: 'Fredoka One';
+	font-size: 70px;
+	margin-left: 80px ;
+	margin-top: 70px;
+}
+
+h3{
+	font-family: 'Fredoka One';
+	font-size: 45px;
+	margin-left: 80px;
+	margin-top: 50px;
+
+}
+
+h4{
+	font-family:'Patrick Hand';
+	font-size: 20px ;
+	margin-left: 75px;
+	margin-top: 30px;
+}
+
+h5{
+	font-family: 'Fredoka One';
+	font-size: 45px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+h6{
+	font-family: 'Patrick Hand';
+	font-size: 20px;
+	margin-left: 75px;
+	margin-top: 30px;
+}
+
+
+#titreaccueil{
+	text-align: center;
+    margin-left: 675px;
+    display:inline-block;
+    font-family:'Pacifico';
+    font-size: 40px;
+}
+
+
+nav h1{
+	
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+
+
+nav{
+	
+	font-family: 'Fredoka', sans-serif;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid;
+	
+	background-color: rgb(245, 245, 245);
+	
+	
+}
+
+a:hover{
+	color: cyan;
+	
+}
+
+/*a:visited{
+	color:pink;*/
+
+
+
+.tablette{
+	text-align:left;
+	padding-left:0;
+	padding-right:650px;
+	
+	
+	
+}
+
+.lien{
+	padding:25px;
+	text-decoration: none;
+    
+	
+	
+}
+
+img{
+	
+	height:55px;
+	width:150;
+
+	
+}
+img .arriere{
+	background-size: cover;
+}
+	
